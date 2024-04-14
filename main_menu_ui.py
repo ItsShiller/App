@@ -5,7 +5,7 @@ from ui_elements import Button, Canvas
 from quiz_brain import QuizBrain
 from data import *
 import pyglet
-import random
+
 
 pyglet.options["win32_gdi_font"] = True
 pyglet.font.add_file("./assets/Lalezar.ttf")
