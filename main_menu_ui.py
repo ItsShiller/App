@@ -227,6 +227,8 @@ window = Tk()
 
 window.geometry("368x562")
 window.configure(bg="#FFFFFF")
+window.title("BrainBlitz")
+window.iconbitmap("./assets/icon.ico")
 
 
 # Main Menu
