@@ -51,14 +51,7 @@ class QuizBrain:
             user_answer.lower()
             == self.question_list[self.question_number - 1].answer.lower()
         ):
-            print("You got it right!")
             self.score += 1
             return True
         else:
-            print("Thats wrong.")
-            print(
-                f"The correct answer was {self.question_list[self.question_number - 1].answer.lower()}."
-            )
-            if self.question_number < len(self.question_list):
-                print(f"Your current score is: {self.score}/{self.question_number}")
             return False
